@@ -1,0 +1,80 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Telva",
+  "alternateName": [
+    "Telva AI Fortune Teller",
+    "Telva Yapay Zeka Fal"
+  ],
+  "description": "Telva is an AI-assisted Android lifestyle app for coffee cup, tea, palm, tarot, rune, dream interpretation, and daily horoscope readings in Turkish and English.",
+  "applicationCategory": "LifestyleApplication",
+  "applicationSubCategory": "AI fortune telling and personal reflection",
+  "operatingSystem": "ANDROID",
+  "softwareVersion": "3.0.0",
+  "isAccessibleForFree": true,
+  "inLanguage": [
+    "en",
+    "tr"
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kaira Labs",
+    "url": "https://thekorkmazspace.github.io/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "url": "https://thekorkmazspace.github.io/",
+  "installUrl": "https://play.google.com/store/apps/details?id=com.kairalabs.telva",
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.kairalabs.telva",
+  "sameAs": [
+    "https://thekorkmazspace.github.io/",
+    "https://thekorkmazspace.github.io/landing/index.html",
+    "https://thekorkmazspace.github.io/landing/tr.html",
+    "https://play.google.com/store/apps/details?id=com.kairalabs.telva"
+  ],
+  "keywords": [
+    "AI fortune teller app",
+    "coffee cup reading",
+    "tea reading",
+    "palm reading",
+    "tarot reading",
+    "rune reading",
+    "dream interpretation",
+    "daily horoscope",
+    "kahve fali",
+    "kahve falı",
+    "cay fali",
+    "çay falı",
+    "el fali",
+    "el falı",
+    "tarot fali",
+    "tarot falı",
+    "run fali",
+    "rün falı",
+    "ruya yorumu",
+    "rüya yorumu",
+    "gunluk burc",
+    "günlük burç",
+    "yapay zeka fal",
+    "yapay zekâ fal"
+  ],
+  "featureList": [
+    "AI coffee cup and tea readings",
+    "AI palm reading from a photo",
+    "Tarot card of the day, one-card, and three-card spreads",
+    "Rune readings",
+    "Traditional and Jungian dream interpretation",
+    "Daily horoscope readings",
+    "Reader personas",
+    "Saved inbox and history",
+    "Turkish and English interface"
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Adults interested in lifestyle, entertainment, symbolic readings, journaling, and personal reflection"
+  },
+  "usageInfo": "Telva is for entertainment and reflection only. It is not a substitute for professional, medical, mental-health, legal, or financial advice."
+}

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telva — Yapay Zekâ ile Kahve, Tarot, Rün, El Falı ve Burç</title>
+    <meta name="description" content="Telva; kahve, çay, el falı, tarot, rün, rüya yorumu ve günlük burç yorumlarını yapay zekâ ile sunan fal uygulaması. Yorumlar gelen kutuna gelir. Google Play'de ücretsiz.">
+    <meta name="keywords" content="kahve falı, tarot falı, rün falı, el falı, rüya yorumu, günlük burç, yapay zeka fal, Telva">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0f0c20">
+    <link rel="canonical" href="https://thekorkmazspace.github.io/landing/tr.html">
+    <link rel="alternate" hreflang="tr" href="https://thekorkmazspace.github.io/landing/tr.html">
+    <link rel="alternate" hreflang="en" href="https://thekorkmazspace.github.io/landing/index.html">
+    <link rel="alternate" hreflang="x-default" href="https://thekorkmazspace.github.io/landing/index.html">
+    <link rel="alternate" type="text/plain" title="Telva LLM context" href="../llms.txt">
+    <link rel="alternate" type="application/json" title="Telva AI search profile" href="../ai-search-profile.json">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Telva">
+    <meta property="og:title" content="Telva — Yapay Zekâ ile Kahve, Tarot, Rün, El Falı ve Burç">
+    <meta property="og:description" content="Kahve, çay, el falı, tarot, rün, rüya yorumu ve günlük burç — sana özel yorumlar gelen kutuna gelir.">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:url" content="https://thekorkmazspace.github.io/landing/tr.html">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Telva — Yapay Zekâ ile Kahve, Tarot, Rün, El Falı ve Burç">
+    <meta name="twitter:description" content="Kahve, çay, el falı, tarot, rün, rüya yorumu ve günlük burç — sana özel yorumlar gelen kutuna gelir.">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Telva",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "LifestyleApplication",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TRY" },
+      "description": "Kahve, çay, el falı, tarot, rün, rüya yorumu ve günlük burç yorumlarını yapay zekâ ile sunan, sonuçları gelen kutuna ileten fal uygulaması.",
+      "inLanguage": ["tr", "en"],
+      "isAccessibleForFree": true,
+      "publisher": {
+        "@type": "Organization",
+        "name": "Kaira Labs",
+        "url": "https://thekorkmazspace.github.io/"
+      },
+      "url": "https://play.google.com/store/apps/details?id=com.kairalabs.telva",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.kairalabs.telva",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.kairalabs.telva",
+      "sameAs": [
+        "https://thekorkmazspace.github.io/",
+        "https://thekorkmazspace.github.io/landing/index.html"
+      ],
+      "keywords": "kahve falı, çay falı, el falı, tarot falı, rün falı, rüya yorumu, günlük burç, yapay zekâ fal, AI fortune teller app",
+      "featureList": [
+        "Yapay zekâ destekli kahve ve çay falı",
+        "Fotoğraftan el falı",
+        "Günün kartı, tek kart ve üç kart tarot açılımları",
+        "Rün falı",
+        "Geleneksel ve Jungcu rüya yorumu",
+        "Günlük burç yorumları",
+        "Gelen kutusu ve geçmişte kayıtlı yorumlar",
+        "Türkçe ve İngilizce deneyim"
+      ],
+      "softwareVersion": "3.0.0"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Telva ücretsiz mi?", "acceptedAnswer": { "@type": "Answer", "text": "Evet. Telva Google Play'de ücretsiz indirilir ve ilk yorumuna hemen başlayabilirsin." } },
+        { "@type": "Question", "name": "Telva hangi fal türlerini sunuyor?", "acceptedAnswer": { "@type": "Answer", "text": "Kahve, çay, el falı, tarot, rün, geleneksel ve Jungcu rüya yorumu ile günlük burç yorumları." } },
+        { "@type": "Question", "name": "Yorumlar nasıl oluşturuluyor?", "acceptedAnswer": { "@type": "Answer", "text": "Telva her fal için sana özel bir yorum üretmek üzere yapay zekâ kullanır; sonuç gelen kutuna gelir ve geçmişine kaydedilir." } }
+      ]
+    }
+    </script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        :root{
+            --bg:#0b0717; --bg2:#0f0c20; --surface:rgba(26,18,48,.7); --soft:rgba(255,255,255,.06);
+            --border:rgba(255,215,0,.22); --gold:#ffd700; --gold-soft:#ffe9a8; --gold-deep:#f4b740;
+            --cream:#f3ede0; --door:#241a40; --lilac:#8e73ff; --cyan:#58d2ff;
+            --text:#f7f4ff; --muted:#cfc7e4;
+        }
+        *{box-sizing:border-box}
+        html{scroll-behavior:smooth}
+        body{margin:0;color:var(--text);font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;min-height:100vh;
+            background:
+                radial-gradient(circle at 15% 8%,rgba(142,115,255,.20),transparent 34%),
+                radial-gradient(circle at 85% 14%,rgba(88,210,255,.14),transparent 30%),
+                radial-gradient(circle at 50% 100%,rgba(255,215,0,.16),transparent 40%),
+                linear-gradient(180deg,#07040f 0%,var(--bg2) 45%,#160e29 100%);
+            overflow-x:hidden}
+        a{text-decoration:none}
+
+        /* ---------- animated cosmic background ---------- */
+        .sky{position:fixed;inset:0;z-index:-2;pointer-events:none;overflow:hidden}
+        .stars{position:absolute;inset:-200px;background-repeat:repeat;}
+        .stars.s1{background-image:radial-gradient(1.5px 1.5px at 20px 30px,#fff,transparent),radial-gradient(1.5px 1.5px at 120px 80px,rgba(255,233,168,.9),transparent),radial-gradient(1px 1px at 70px 160px,#fff,transparent),radial-gradient(1.5px 1.5px at 200px 120px,#fff,transparent);background-size:240px 240px;opacity:.6;animation:drift 130s linear infinite,twinkle 5s ease-in-out infinite}
+        .stars.s2{background-image:radial-gradient(1px 1px at 50px 60px,rgba(255,215,0,.8),transparent),radial-gradient(1px 1px at 160px 30px,#fff,transparent),radial-gradient(1.5px 1.5px at 230px 180px,rgba(142,115,255,.9),transparent);background-size:300px 300px;opacity:.5;animation:drift 90s linear infinite reverse,twinkle 7s ease-in-out infinite}
+        .stars.s3{background-image:radial-gradient(1px 1px at 90px 110px,#fff,transparent),radial-gradient(1px 1px at 180px 50px,rgba(88,210,255,.9),transparent);background-size:200px 200px;opacity:.4;animation:drift 60s linear infinite}
+        @keyframes drift{from{transform:translateY(0)}to{transform:translateY(240px)}}
+        @keyframes twinkle{0%,100%{opacity:.55}50%{opacity:.25}}
+        .shooting{position:absolute;top:-10%;left:-10%;width:140px;height:2px;border-radius:2px;
+            background:linear-gradient(90deg,transparent,var(--gold-soft),#fff);filter:drop-shadow(0 0 6px var(--gold));
+            opacity:0;transform:rotate(35deg);animation:shoot 9s ease-in infinite}
+        .shooting.b{animation-delay:5.5s;top:20%;left:30%}
+        @keyframes shoot{0%{opacity:0;transform:translate(0,0) rotate(35deg)}
+            6%{opacity:1}14%{opacity:0;transform:translate(420px,300px) rotate(35deg)}100%{opacity:0}}
+
+        .container-narrow{max-width:1080px;margin:0 auto;padding:0 20px;position:relative}
+        .topbar{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
+        .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.25rem;letter-spacing:.18em;color:var(--gold-soft)}
+        .brand .telva-logo{width:34px;height:34px}
+        .lang a{color:var(--muted);font-size:.85rem;padding:6px 12px;border:1px solid var(--border);border-radius:999px;margin-left:8px;transition:.2s}
+        .lang a:hover{border-color:var(--gold);color:var(--gold-soft)}
+        .lang a.active{color:#1a1024;background:var(--gold);border-color:var(--gold)}
+
+        /* ---------- animated logo ---------- */
+        .telva-logo{display:block}
+        .telva-logo .tl-frame{fill:var(--cream);stroke:var(--gold);stroke-width:2}
+        .telva-logo .tl-portal{fill:url(#portalGrad)}
+        .telva-logo .tl-arch{stroke:var(--gold);stroke-width:1.6;opacity:.7}
+        .telva-logo .tl-door{fill:var(--cream);stroke:var(--gold);stroke-width:1.4}
+        .telva-logo .tl-knob{fill:var(--gold-deep)}
+        .telva-logo .tl-star path,.telva-logo .tl-core{fill:var(--gold-soft);filter:url(#starGlow)}
+        .telva-logo .tl-spark{fill:#fff}
+        .hero-logo{width:132px;height:132px;margin:0 auto 26px;animation:floaty 6s ease-in-out infinite;
+            filter:drop-shadow(0 16px 40px rgba(255,215,0,.28))}
+        @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+        .tl-rays{transform-origin:0 0;animation:spin 44s linear infinite}
+        .tl-star{transform-box:fill-box;transform-origin:center;animation:pulse 3.4s ease-in-out infinite}
+        @keyframes spin{to{transform:rotate(360deg)}}
+        @keyframes pulse{0%,100%{transform:scale(1);opacity:.95}50%{transform:scale(1.14);opacity:1}}
+        .tl-spark{animation:sparktw 3s ease-in-out infinite}
+        .tl-spark.b{animation-delay:1s}.tl-spark.c{animation-delay:1.9s}
+        @keyframes sparktw{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.2)}}
+
+        /* ---------- hero ---------- */
+        .hero{text-align:center;padding:30px 0 40px}
+        .hero h1{font-size:clamp(2.1rem,5vw,3.5rem);line-height:1.1;margin-bottom:18px;
+            background:linear-gradient(110deg,var(--gold-soft),var(--gold) 25%,var(--lilac) 60%,var(--cyan) 80%,var(--gold-soft));
+            background-size:220% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+            animation:shimmer 7s linear infinite}
+        @keyframes shimmer{to{background-position:220% center}}
+        .hero p.lead{font-size:1.15rem;color:var(--muted);max-width:680px;margin:0 auto 30px}
+        .cta{position:relative;display:inline-flex;align-items:center;gap:10px;background:linear-gradient(120deg,var(--gold),var(--gold-deep));
+            color:#1a1024;font-weight:700;padding:14px 28px;border-radius:14px;font-size:1.05rem;
+            box-shadow:0 10px 30px rgba(255,215,0,.25);transition:transform .18s,box-shadow .18s;animation:ctaGlow 3s ease-in-out infinite}
+        .cta:hover{transform:translateY(-3px) scale(1.02);color:#1a1024;box-shadow:0 16px 44px rgba(255,215,0,.45)}
+        .cta i{font-size:1.2rem}
+        @keyframes ctaGlow{0%,100%{box-shadow:0 10px 30px rgba(255,215,0,.22)}50%{box-shadow:0 12px 40px rgba(255,215,0,.45)}}
+        .pill-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:30px}
+        .pill{background:var(--soft);border:1px solid var(--border);border-radius:999px;padding:8px 16px;color:var(--text);font-size:.92rem;
+            backdrop-filter:blur(6px);animation:floaty 5s ease-in-out infinite}
+        .pill:nth-child(2){animation-delay:.4s}.pill:nth-child(3){animation-delay:.8s}
+        .pill:nth-child(4){animation-delay:1.2s}.pill:nth-child(5){animation-delay:1.6s}.pill:nth-child(6){animation-delay:2s}
+
+        section{padding:46px 0}
+        h2.section-title{font-size:1.85rem;text-align:center;margin-bottom:8px}
+        .section-sub{text-align:center;color:var(--muted);max-width:620px;margin:0 auto 34px}
+        .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+        .feature{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:24px;
+            backdrop-filter:blur(8px);transition:transform .25s,box-shadow .25s,border-color .25s;overflow:hidden}
+        .feature::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,rgba(255,215,0,.12),transparent 60%);opacity:0;transition:opacity .3s}
+        .feature:hover{transform:translateY(-6px);border-color:var(--gold);box-shadow:0 18px 44px rgba(0,0,0,.45),0 0 24px rgba(255,215,0,.18)}
+        .feature:hover::after{opacity:1}
+        .feature i{font-size:1.7rem;color:var(--gold-soft);transition:transform .25s}
+        .feature:hover i{transform:scale(1.15) rotate(-4deg)}
+        .feature h3{font-size:1.15rem;margin:14px 0 8px}
+        .feature p{color:var(--muted);font-size:.95rem;margin:0}
+        .badge-new{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#1a1024;
+            background:var(--cyan);border-radius:6px;padding:2px 8px;margin-left:8px;vertical-align:middle;animation:pulse 2.2s ease-in-out infinite}
+        .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+        .step{text-align:center;padding:18px}
+        .step .num{width:48px;height:48px;border-radius:50%;border:1px solid var(--border);display:flex;
+            align-items:center;justify-content:center;margin:0 auto 14px;font-weight:700;color:#1a1024;
+            background:linear-gradient(120deg,var(--gold),var(--gold-deep));box-shadow:0 0 0 0 rgba(255,215,0,.4);animation:ring 2.6s ease-out infinite}
+        .step:nth-child(2) .num{animation-delay:.6s}.step:nth-child(3) .num{animation-delay:1.2s}
+        @keyframes ring{0%{box-shadow:0 0 0 0 rgba(255,215,0,.5)}70%{box-shadow:0 0 0 14px rgba(255,215,0,0)}100%{box-shadow:0 0 0 0 rgba(255,215,0,0)}}
+        .faq-item{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 22px;margin-bottom:12px;backdrop-filter:blur(8px);transition:border-color .25s}
+        .faq-item:hover{border-color:var(--gold)}
+        .faq-item h3{font-size:1.05rem;margin:0 0 6px}
+        .faq-item p{color:var(--muted);margin:0;font-size:.95rem}
+        footer{border-top:1px solid var(--border);padding:30px 0;color:var(--muted);text-align:center;font-size:.85rem}
+        .disclaimer{max-width:720px;margin:30px auto 0;color:var(--muted);font-size:.82rem;text-align:center;opacity:.85}
+
+        /* ---------- scroll reveal ---------- */
+        .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+        .reveal.in{opacity:1;transform:none}
+
+        @media (prefers-reduced-motion:reduce){
+            *{animation:none!important;transition:none!important}
+            .reveal{opacity:1;transform:none}
+        }
+    </style>
+</head>
+<body>
+
+<!-- cosmic backdrop -->
+<div class="sky" aria-hidden="true">
+    <div class="stars s1"></div><div class="stars s2"></div><div class="stars s3"></div>
+    <div class="shooting"></div><div class="shooting b"></div>
+</div>
+
+<!-- shared logo definition -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+    <linearGradient id="portalGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#3a2a63"/><stop offset="1" stop-color="#160e29"/>
+    </linearGradient>
+    <filter id="starGlow" x="-80%" y="-80%" width="260%" height="260%">
+        <feGaussianBlur stdDeviation="1.4" result="b"/>
+        <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+</defs></svg>
+
+<template id="telvaLogo">
+    <svg class="telva-logo" viewBox="0 0 100 100" role="img" aria-label="Telva logo">
+        <rect class="tl-frame" x="7" y="6" width="86" height="88" rx="24"/>
+        <path class="tl-portal" d="M27 84 V44 Q27 22 50 22 Q73 22 73 44 V84 Z"/>
+        <path class="tl-arch" d="M27 84 V44 Q27 22 50 22 Q73 22 73 44 V84" fill="none"/>
+        <path class="tl-door" d="M73 84 V40 Q73 27 59 24 L59 80 Z"/>
+        <circle class="tl-knob" cx="63" cy="55" r="2.2"/>
+        <circle class="tl-spark" cx="39" cy="40" r="1.3"/>
+        <circle class="tl-spark b" cx="58" cy="66" r="1.1"/>
+        <circle class="tl-spark c" cx="43" cy="72" r="1"/>
+        <g class="tl-star" transform="translate(47 55)">
+            <g class="tl-rays">
+                <path d="M0 -23 L3 0 L0 23 L-3 0 Z"/>
+                <path d="M-23 0 L0 -3 L23 0 L0 3 Z"/>
+                <path d="M-13 -13 L1.6 -1.6 L13 13 L-1.6 1.6 Z" opacity=".75"/>
+                <path d="M13 -13 L-1.6 -1.6 L-13 13 L1.6 1.6 Z" opacity=".75"/>
+            </g>
+            <circle class="tl-core" r="2.6"/>
+        </g>
+    </svg>
+</template>
+
+<div class="container-narrow">
+    <header class="topbar">
+        <div class="brand"><span class="logo-slot" data-size="34"></span>TELVA</div>
+        <nav class="lang" aria-label="Dil">
+            <a href="index.html" hreflang="en">EN</a>
+            <a href="tr.html" class="active" hreflang="tr">TR</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-logo logo-slot" data-size="132"></div>
+            <h1>Fal deneyimin, yapay zekâ ile yeniden</h1>
+            <p class="lead">Telva; kahve, çay, el falı, tarot, rün, rüya yorumu ve günlük burç yorumlarını
+                tek bir mistik deneyimde buluşturur. Her yorum yapay zekâ ile sana özel hazırlanır ve
+                doğrudan gelen kutuna düşer.</p>
+            <a class="cta" href="https://play.google.com/store/apps/details?id=com.kairalabs.telva">
+                <i class="bi bi-google-play"></i> Google Play'den indir
+            </a>
+            <div class="pill-row">
+                <span class="pill">☕ Kahve &amp; çay</span>
+                <span class="pill">🤚 El falı</span>
+                <span class="pill">🃏 Tarot</span>
+                <span class="pill">ᚱ Rün</span>
+                <span class="pill">🌙 Rüya</span>
+                <span class="pill">♈ Burç</span>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title reveal">Tek uygulamada tüm fallar</h2>
+            <p class="section-sub reveal">Altı ayrı içgörü dünyası, her biri sana özel ve saklayabileceğin bir yoruma dönüşüyor.</p>
+            <div class="card-grid">
+                <article class="feature reveal"><i class="bi bi-cup-hot"></i><h3>Kahve &amp; çay falı</h3><p>Fincanının fotoğrafını çek; Telva telve ve yaprakların sembollerini yorumlasın.</p></article>
+                <article class="feature reveal"><i class="bi bi-hand-index-thumb"></i><h3>El falı</h3><p>Avucunun tek bir fotoğrafı, çizgilerinin rehberli bir yorumuna dönüşür.</p></article>
+                <article class="feature reveal"><i class="bi bi-suit-spade"></i><h3>Tarot</h3><p>Tek kart, üç kart ve günün kartı açılımlarıyla zengin yorumlar.</p></article>
+                <article class="feature reveal"><i class="bi bi-gem"></i><h3>Rün falı <span class="badge-new">YENİ</span></h3><p>Rünlerini çek, kadim sembollerin yapay zekâ ile hazırlanan yorumunu al.</p></article>
+                <article class="feature reveal"><i class="bi bi-moon-stars"></i><h3>Rüya yorumu</h3><p>Sembol, arketip ve tekrar eden motiflerin geleneksel ve Jungcu yorumu.</p></article>
+                <article class="feature reveal"><i class="bi bi-stars"></i><h3>Günlük burç</h3><p>Burcuna özel, güvenilir günlük enerji ve burç yorumları.</p></article>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title reveal">Telva neden seviliyor</h2>
+            <p class="section-sub reveal">Kişisel, sakin ve güvenilir hissettirmek için tasarlandı.</p>
+            <div class="card-grid">
+                <article class="feature reveal"><i class="bi bi-inbox"></i><h3>Gelen kutusu &amp; geçmiş</h3><p>Her yorum gelen kutuna düşer ve geçmişine kaydedilir; hiçbir şey kaybolmaz.</p></article>
+                <article class="feature reveal"><i class="bi bi-chat-quote"></i><h3>Birbirinden farklı yorumcu sesleri</h3><p>Yenilenen yorumcu arketipleri her yoruma kendine has bir ton ve karakter katar.</p></article>
+                <article class="feature reveal"><i class="bi bi-bell"></i><h3>Taze günlük hatırlatmalar</h3><p>Hep aynı cümleleri tekrarlamayan, çeşitli günlük enerji ve gelen kutusu hatırlatmaları.</p></article>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title reveal">Nasıl çalışır</h2>
+            <div class="steps">
+                <div class="step reveal"><div class="num">1</div><h3>Bir fal seç</h3><p style="color:var(--muted)">Kahve, tarot, rün, el, rüya ya da burç.</p></div>
+                <div class="step reveal"><div class="num">2</div><h3>Bağlamını ekle</h3><p style="color:var(--muted)">Fotoğraf çek ya da aklındakini paylaş.</p></div>
+                <div class="step reveal"><div class="num">3</div><h3>Yorumunu al</h3><p style="color:var(--muted)">Sana özel yapay zekâ yorumu gelen kutuna gelir.</p></div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title reveal">Sıkça sorulan sorular</h2>
+            <div class="faq-item reveal"><h3>Telva ücretsiz mi?</h3><p>Evet — Telva Google Play'de ücretsiz indirilir ve ilk yorumuna hemen başlayabilirsin.</p></div>
+            <div class="faq-item reveal"><h3>Telva hangi fal türlerini sunuyor?</h3><p>Kahve, çay, el falı, tarot, rün, geleneksel ve Jungcu rüya yorumu ile günlük burç yorumları.</p></div>
+            <div class="faq-item reveal"><h3>Yorumlar nasıl oluşturuluyor?</h3><p>Telva her fal için sana özel bir yorum üretmek üzere yapay zekâ kullanır; sonuç gelen kutuna gelir ve geçmişine kaydedilir.</p></div>
+        </section>
+
+        <section style="text-align:center">
+            <h2 class="section-title reveal">İlk falına bugün başla</h2>
+            <p class="section-sub reveal">Telva'yı ücretsiz indir, bırak semboller konuşsun.</p>
+            <a class="cta" href="https://play.google.com/store/apps/details?id=com.kairalabs.telva">
+                <i class="bi bi-google-play"></i> Google Play'den indir
+            </a>
+            <p class="disclaimer">Yalnızca düşünme ve eğlence amaçlıdır. Profesyonel; tıbbi, ruh sağlığı, hukuki veya finansal tavsiyenin yerini tutmaz.</p>
+        </section>
+    </main>
+</div>
+<footer>
+    <div class="container-narrow">
+        © <span id="yr"></span> Telva · Kaira Labs ·
+        <a href="https://play.google.com/store/apps/details?id=com.kairalabs.telva" style="color:var(--gold)">Google Play</a>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('yr').textContent = new Date().getFullYear();
+    const tpl = document.getElementById('telvaLogo');
+    document.querySelectorAll('.logo-slot').forEach(slot=>{
+        const svg = tpl.content.firstElementChild.cloneNode(true);
+        const s = slot.dataset.size;
+        if(s){ svg.style.width = s+'px'; svg.style.height = s+'px'; }
+        slot.appendChild(svg);
+    });
+    const io = new IntersectionObserver((entries)=>{
+        entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+    },{threshold:.15});
+    document.querySelectorAll('.reveal').forEach((el,i)=>{ el.style.transitionDelay=(i%6*60)+'ms'; io.observe(el); });
+</script>
+</body>
+</html>
