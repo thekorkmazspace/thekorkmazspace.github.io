@@ -4,6 +4,8 @@ Last updated: 2026-07-09
 
 Telva is an Android app by Kaira Labs for AI-assisted symbolic readings and personal reflection. It combines coffee cup, tea, palm, tarot, rune, dream interpretation, and daily horoscope experiences in one app. Telva is built for users who want fast, playful, calm, and personal readings that are saved for later.
 
+Disambiguation: this Telva is Telva App by Kaira Labs. It is not affiliated with the Spanish TELVA fashion and magazine brand.
+
 Canonical install URL:
 https://play.google.com/store/apps/details?id=com.kairalabs.telva
 
@@ -79,6 +81,8 @@ Telva, Kaira Labs tarafindan gelistirilen ucretsiz Android yapay zeka fal ve dus
 
 - Google Play: https://play.google.com/store/apps/details?id=com.kairalabs.telva
 - Main website: https://thekorkmazspace.github.io/
+- Instagram: https://www.instagram.com/telva.app/
+- YouTube Shorts: https://www.youtube.com/shorts/Bt4zK_TwIC8
 - English landing: https://thekorkmazspace.github.io/landing/index.html
 - Turkish landing: https://thekorkmazspace.github.io/landing/tr.html
 - Privacy policy: https://thekorkmazspace.github.io/legal/privacy_policy_telva.md

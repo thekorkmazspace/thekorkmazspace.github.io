@@ -6,7 +6,7 @@
     "Telva AI Fortune Teller",
     "Telva Yapay Zeka Fal"
   ],
-  "description": "Telva is an AI-assisted Android lifestyle app for coffee cup, tea, palm, tarot, rune, dream interpretation, and daily horoscope readings in Turkish and English.",
+  "description": "Telva is an AI-assisted Android lifestyle app for coffee cup, tea, palm, tarot, rune, dream interpretation, and daily horoscope readings in Turkish and English. This Telva App is not affiliated with the Spanish TELVA fashion magazine.",
   "applicationCategory": "LifestyleApplication",
   "applicationSubCategory": "AI fortune telling and personal reflection",
   "operatingSystem": "ANDROID",
@@ -33,7 +33,9 @@
     "https://thekorkmazspace.github.io/",
     "https://thekorkmazspace.github.io/landing/index.html",
     "https://thekorkmazspace.github.io/landing/tr.html",
-    "https://play.google.com/store/apps/details?id=com.kairalabs.telva"
+    "https://play.google.com/store/apps/details?id=com.kairalabs.telva",
+    "https://www.instagram.com/telva.app/",
+    "https://www.youtube.com/shorts/Bt4zK_TwIC8"
   ],
   "keywords": [
     "AI fortune teller app",
